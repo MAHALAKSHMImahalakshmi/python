@@ -1,11 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('version') {
-      steps {
-        sh 'python3 --version'
-      }
-    }
+   
     stage('datta') {
       steps {
         sh 'python3 pythonfile.py'
