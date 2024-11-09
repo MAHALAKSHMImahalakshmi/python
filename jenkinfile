@@ -4,7 +4,7 @@ pipeline {
    
     stage('datta') {
       steps {
-        sh 'python3 pythonfile.py'
+        sh 'python pythonfile.py'
       }
     }
   }
